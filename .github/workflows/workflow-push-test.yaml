@@ -12,7 +12,7 @@ jobs:
     env:
       DATABRICKS_HOST: ${{ secrets.DEPLOYMENT_TARGET_URL }}
       DATABRICKS_TOKEN: ${{ secrets.DEPLOYMENT_TARGET_TOKEN }}
-      REPO_PATH: /Repos/Users/komatimurari67@gmail.com/test-databricks
+      REPO_PATH: /Workspace/Repos/komatimurari67@gmail.com/test-databricks
 
     steps:
     - name: Check out repository
